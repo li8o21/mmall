@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
  **/
 @Controller
 @RequestMapping("/manage/user")
-public class UserManagerController {
+public class UserManageController {
 
     @Autowired
     private IUserService iUserService;
@@ -41,5 +41,4 @@ public class UserManagerController {
         }
         return response;
     }
-
 }

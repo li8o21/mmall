@@ -1,5 +1,8 @@
 package com.mmall.common;
 
+/**
+ *  返回值code
+ */
 public enum ResponseCode {
     SUCCESS(0, "SUCCESS"),
     ERROR(1, "ERROR"),
