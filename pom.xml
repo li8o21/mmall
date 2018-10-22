@@ -241,7 +241,6 @@
         </dependency>
     </dependencies>
 
-
     <build>
         <finalName>mmall</finalName>
         <plugins>
